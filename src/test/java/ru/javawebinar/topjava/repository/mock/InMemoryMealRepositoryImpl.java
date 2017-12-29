@@ -17,9 +17,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static ru.javawebinar.topjava.web.UserTestData.ADMIN_ID;
-import static ru.javawebinar.topjava.web.UserTestData.USER_ID;
-
 @Repository
 public class InMemoryMealRepositoryImpl implements MealRepository {
     private static final Logger log = LoggerFactory.getLogger(InMemoryUserRepositoryImpl.class);
